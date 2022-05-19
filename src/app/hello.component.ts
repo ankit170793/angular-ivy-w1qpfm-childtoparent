@@ -14,12 +14,20 @@ import { Component, EventEmitter, Input, Output } from '@angular/core';
   styles: [`
   div{
     padding:5%;
-    border: 1px solid black;
-    background-color: yellow;
+    border-radius: 10px;
+    background: #e0e0e0;
+    box-shadow:  20px 20px 60px #848484,
+                 -20px -20px 60px #ffffff;
   }
   button{
     margin-top:5%;
-    background-color:grey;
+    background-color:green;
+    border-radius:5px;
+    color:white;
+  }
+  input{
+    padding:5px;
+    border-radius:5px;
   }
   `]
 })
